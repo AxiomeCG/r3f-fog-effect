@@ -13,18 +13,9 @@ const Scene = () => {
       <Maya/>
 
     </Center>
-
-
-    {/*<Sponza rotation-y={Math.PI/2}/>*/}
   </>
 }
 
-/*
- ['gradient', new Uniform(gradient)],
- ['fog_intensity', new Uniform(fogIntensity)],
- ['fog_amount', new Uniform(fogAmount)],
- ['cameraInverseProjectionMatrix', new Uniform(camera.matrixWorldInverse)],
- */
 function App() {
 
   const controls = useControls({
@@ -52,7 +43,6 @@ function App() {
   return (
     <>
       <Canvas>
-        {/*Night color background crepuscule*/}
         <color attach={"background"} args={["#080a19"]}/>
         <Scene/>
 
