@@ -19,3 +19,6 @@
 
 
 ![Thumbnail](showcase.png)
+<div align="center">
+<a href="https://r3f-fog-effect.vercel.app/">Link to the demo</a>
+</div>
